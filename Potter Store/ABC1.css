@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+.sec3{
+    text-align: center;
+}
+.sec1{
+    float: left;
+    width: 15%;
+    padding: 10px;
+    margin: 60px 10px;
+}
+.sec2{
+    float: right;
+    text-align: center;
+}
+
+#nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 0px 20px;
+}
+
+.sec4{
+     transform: translateY(10%);
+}
+.sec4 table{
+    clear: both;
+    width: 60%;
+    transform: translateX(10%);
+    position: relative;
+    background-color: red;
+    text-align: center;
+}
+.sec4 table, .sec4 th, .sec4 td{
+ padding: 10px 8px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+#image{
+    cursor: pointer;
+}

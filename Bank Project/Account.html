@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="icon" href="GringottsBankLogo.jpeg">
+        <link rel="stylesheet" href="Account.css">
+        <title>Account Details</title>
+</head>
+<body>
+    <h2 style="text-align: center; color: black;">Welcome Mr Harry James Potter</h2>
+    <section class="sec1">
+       <center>
+           <p>Savings Account</p>
+           <p>(26001453256)</p>
+           <p id="bal" onclick="viewBalance()">View Balance</p>
+           <!-- <table>
+           <tr>
+               <td colspan="2">Savings Account</td>
+           </tr>
+           <tr>
+                <td colspan="2" style="font-size: 75%;">(26001453256)</td>
+           </tr>
+           <tr>
+               <td colspan="2" style="font-size: 155%;" id="current">10548.00</td>
+               <td colspan="2" id="parent"> <input type="button" value="View Balance" name="view" id="bal"> </td>
+           </tr> -->
+           <!-- <tr>
+                <td>
+                    <a href="Deposit.html"><input type="submit" value="Deposit" style="background-color: red;"></a>
+                </td>
+                <td>
+                    <a href="Deposit.html"><input type="submit" value="Withdrawal" style="background-color: green;"></a>
+                </td>
+            </tr> -->
+       <!-- </table> -->
+    </center>
+    </section>
+    <section class="sec2">
+        <center>
+            <table>
+                <tr>
+                    <td>Enter The Amount:</td>
+                    <td><input type="number" name="amount" id="amount"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Deposit" id="deposit"></td>
+                    <td><input type="submit" value="Withdraw" id="withdraw"></td>
+                </tr>
+            </table>
+        </center>
+    </section>
+        <div class="sec3">
+            <center>
+                <caption style="font-size: 30px;"> <h3>PassBook</h3></caption>
+                <table id="passbook">
+                    <tr>
+                        <td>Transaction type</td>
+                        <td>Transaction Date</td>
+                        <td>Previous Balance</td>
+                        <td>Transaction amount</td>
+                        <td>Closing Balance</td>
+                    </tr>
+                </table>
+            </center>
+    </div>
+    <script src="backendbank.js"></script>
+</body>
+</html>

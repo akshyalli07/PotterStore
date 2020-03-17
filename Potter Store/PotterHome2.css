@@ -1,0 +1,335 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgba(110, 28, 28, 0.863), rgba(177, 177, 18, 0.89));
+    /* background-image: url("Griffyndor.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    backdrop-filter: blur(5px);
+}
+.sec1{
+    width: 100%;
+    /* background-image: url("22948.jpg"); */
+    /* background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    height: 120px;
+    text-align: center;
+    margin: 0px 0px;
+}
+#name{
+    margin: 8px 10px;
+    float: left;
+    color: blanchedalmond;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    padding:10px 40px;
+    cursor: pointer;
+}
+#search{
+    width: 35%;
+    float: left;
+    text-shadow: black;
+    margin-top: 40px;
+    font-size: 105%;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    background: none;
+    border-bottom: 3px solid black;
+    text-indent: 10px;
+    outline: none;
+    height: 25px;
+    padding: 5px;
+    
+}
+
+.list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+ul li #log_in, ul li #sign_up, ul li #help, ul li #cart{
+    font-size: 120%;
+    background: none;
+    outline: none;
+    border: none;
+}
+button, button #cart1{
+    font-size: 105%;
+    font-variant: small-caps;
+}
+ul{
+    width: 100%;
+}
+a:any-link{
+    text-decoration: none;
+}
+#head{
+    color: rgb(206, 206, 35);
+}
+
+#log_in:hover, #sign_up:hover, #help:hover, #cart:hover{
+transition: 0.6s;
+color: blanchedalmond;
+font-size: 113%;
+}
+
+input::placeholder{
+color:black;
+}   
+
+#head:hover{
+transition: 0.6s;
+font-size: 101%;
+animation-name: head;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    25%{
+        color: #cc0000;
+    }
+    50%{
+        color: #002db3;
+    }
+    75%{
+        color: #009900;
+    }
+    100%{
+        color: #ffff00;
+    }
+
+}
+hr {
+    width: 90%;
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.sec5 .nav li a{
+    color: rgb(39, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    font-variant: inherit;
+    font-weight: 700;
+}
+.sec5 .nav li a:hover{
+    font-size: 105%;
+    transition: 0.8s;
+    padding-left: 8px;
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+.sec5{
+    width: 100%;
+    text-align: center;
+}
+
+.sec6{
+    width: 100%;
+}
+.images{
+    float: top;
+    text-align: center;
+}
+.images_texts{
+    float: bottom;
+}
+.images_texts pre{
+    float:left;
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 110%;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+.images img{
+    padding: 0px 35px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.images #first_img{
+    padding-left: 35px;
+}
+#one_text{
+    margin-left: 0px;
+    padding-left: 0px;
+    color: rgb(39, 3, 3);
+}
+#three_text, #two_text{
+    margin-left: 30px;
+    color: rgb(39, 3, 3);
+}
+
+.sec7{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    clear: both;
+}
+.category{
+    float: top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    color: rgb(39, 3, 3);
+}
+.houses{
+    float: bottom;
+}
+.sec7 .houses #Gryffindor, .sec7 .houses #Hufflepuff, .sec7 .houses #Ravenclaw,
+.sec7 .houses #Slytherin{
+    padding: 20px;
+    margin: 20px 30px;
+    width: 206px;
+    height: 244px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.sec7 .houses #Hufflepuff, .sec7 .houses #Ravenclaw{
+    width: 206px;
+    height: 244px;
+}
+
+.sec8{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(39, 3, 3);
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 125%;
+}
+
+#mail{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.email{
+    margin: 30px 0px;
+}
+.email #Input{
+    border: 1px solid rgb(39, 3, 3);
+    outline: none;
+    background: none;
+    width: 20%;
+    font-family: sans-serif;
+    height: 5vh;
+    font-weight: 600;
+    text-indent: 20px;
+    margin-bottom: 40px;
+}
+
+#Input::placeholder{
+    text-indent: 20px;
+}
+
+.sec8 h3{
+    border: 0px;
+    margin: 0;
+}
+.icon{
+    margin: 10px 0px;
+}
+
+.icon i{
+    padding: 15px;
+    font-size: 185%;
+    color: rgb(39, 3, 3);
+}
+
+.icon a{
+    text-decoration: none;
+}
+
+.icon a #fb:hover {
+    color: #3b5998;
+    font-size: 200%;
+}
+
+.icon a #ins:hover {
+    color: rgba(165, 18, 87, 0.952);
+    font-size: 200%;
+}
+
+.icon a #twi:hover {
+    color: #00acee;
+    font-size: 200%;
+}
+.icon a #pin:hover {
+    color: #c8232c;
+    font-size: 200%;
+}
+
+.images img:hover{
+    width: 370px;
+    height: 370px;
+}
+
+.footer{
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 105%;
+}
+
+.footer .service{
+    width: 50%;
+    margin: 30px;
+    text-align: left;
+}
+
+.footer table{
+    transform: translateX(50%);
+}
+
+.footer .service td{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec9{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-variant: small-caps;
+    font-size: 125%;
+    font-weight: 600;
+    color: rgb(39, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec9 a{
+    text-decoration: none;
+    color: rgb(39, 3, 3);
+}
+
+.sec9 i{
+    padding: 15px;
+    font-size: 185%;
+}
+
+.sec9 a i:hover{
+    font-size: 200%;
+}

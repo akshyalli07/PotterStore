@@ -1,0 +1,85 @@
+            body{
+                background-image: url("light-1282314__340.jpg");
+                background-size: cover;
+                color: black;
+            }
+            /* p{
+                background-color: red;
+            } */
+            .sec1{
+                text-align: center;
+                color: whitesmoke;
+                margin-left: 100px;
+                width: 100%;
+            }
+            .sec1 {
+                height: 150px;
+                width: 80%;
+                padding: 0px;
+                text-align: center;
+                border: 2px none black;
+                border-radius: 50px;
+                font-variant: small-caps;
+                font-weight: lighter;
+                font-size: 25px;
+                background-image: url("ocean-3605547__340.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+            .sec1 p{
+                margin: 30px;
+                padding-left: 50px;
+            }
+            #bal p{
+                border: 2px solid white;
+            }
+            .sec1 input{
+                font-variant: small-caps;
+                font-weight: bold;
+                font-size: 25px;
+                border-radius: 20px;
+            }
+            a:any-link{
+                text-decoration: none;
+                color: whitesmoke;
+                background-color: black;
+                padding: 10px;
+                border-radius: 50%;
+                font-weight: lighter;
+            }
+            .sec2{
+                padding: px;
+                text-align: center ;
+                border: 2px none black;
+                border-radius: 25px;
+                font-variant: small-caps;
+                font-weight: bold;
+                font-size: 25px;
+                margin-left: 100px;
+                margin-right: 100px;
+                
+        }
+        .sec2 input{
+            font-variant: small-caps;
+                font-weight: bold;
+                font-size: 25px;
+        }
+        .sec2 table,td{
+            text-align: center;
+            padding: 20px;
+        }
+        .sec3{
+            text-align: center;
+            border: 2px none black;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .sec3 table,.sec3 td{
+            font-weight: 700;
+            border: 1px solid rgb(0, 0, 0) ;
+            border-radius: 10px;
+            width: 60%;
+        }

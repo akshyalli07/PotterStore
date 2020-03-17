@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC - Technology Training</title>
+   <style>
+       body{
+           padding: 0px;
+           margin: 0px;
+           width: 100%;
+           font-family: sans-serif;
+           font-variant: small-caps;
+           color: white;
+           background: linear-gradient(to left, #9418b3, #1b043e);
+       }
+       .sec3{
+           width: 100%;
+           height: auto;
+           clear: both;
+       }
+       img{
+           border-radius: 8px;
+       }
+       .sec3 #logo{
+           float: right;
+           outline: none;
+           background-color: rgb(129, 75, 3);
+           border: 6px solid rgb(129, 75, 3);
+           border-radius: 10px;
+           transform: translateX(-40px);
+       }
+       .sec3 #heading{
+           float: left;
+           padding-top: 60px;
+           margin: 0px;
+           font-size: 45px;
+           font-weight: 550;
+           text-indent: 550px;
+           text-align: left; 
+       }
+       .sec1{
+           clear: both;
+           width: 30%;
+           float: left;
+           padding: 0px;
+           margin: 50px 30px;
+           
+       }
+       .sec2{
+           margin-left: 100px;
+           width: 60%;
+           padding: 0px;
+           margin: 0px;
+           float: left;
+       }
+       .sec2 #nav ul li{
+           list-style-type: none;
+           display: inline-block;
+           padding: 10px 30px;
+       }
+       .sec2 #nav ul li a{
+           text-decoration: none;
+           color: white;
+           font-size: 110%;
+           font-weight: 600;
+           font-variant: small-caps;
+       }
+       .sec4{
+           clear: both;
+           text-align: center;
+       }
+
+       .sec4 table{
+           transform: translateX(0);
+           width: 100%;
+       }
+
+       .sec4 table th{
+           font-size: 23px
+       }
+
+       .sec4 table, .sec4 td, sec4 th{
+           padding: 5px;
+       }
+       .sec5{
+           clear: both;
+       }
+       .sec5 hr{
+           font-weight: 900;
+           font-size: 45px;
+           width: 90%;
+       }
+   </style>
+</head>
+<body>
+    <div class="sec3">
+        <p id="heading">ABC for Tech Training</p>
+        <p id="logo"><img src="ABC.jpg" alt="ABC Logo" id="" width="100px" height="100px"></p>
+    </div>
+
+    <div class="sec5">
+        <hr>
+    </div>
+
+    <div class="sec1">
+        <p>Date</p>
+        <p>Branch</p>     
+        <p>Location</p>
+    </div>
+
+    <div class="sec2">
+        <section id="nav">
+            <ul>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">HOW IT WORKS?</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">PLACEMENTS</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">COURSES</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">CONTACT US</a></li>
+            </ul>
+    </div>
+
+    <div class="sec4">
+        <table>
+            <tr>
+                <th>ABC ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Contact No</th>
+                <th>Email ID</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>{{student1.id}}</td>
+                <td>{{student1.name}}</td>
+                <td>{{student1.course}}</td>
+                <td>{{student1.mobNo}}</td>
+                <td>{{student1.email}}</td>
+                <td>{{student1.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student2.id}}</td>
+                <td>{{student2.name}}</td>
+                <td>{{student2.course}}</td>
+                <td>{{student2.mobNo}}</td>
+                <td>{{student2.email}}</td>
+                <td>{{student2.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student3.id}}</td>
+                <td>{{student3.name}}</td>
+                <td>{{student3.course}}</td>
+                <td>{{student3.mobNo}}</td>
+                <td>{{student3.email}}</td>
+                <td>{{student3.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student4.id}}</td>
+                <td>{{student4.name}}</td>
+                <td>{{student4.course}}</td>
+                <td>{{student4.mobNo}}</td>
+                <td>{{student4.email}}</td>
+                <td>{{student4.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student5.id}}</td>
+                <td>{{student5.name}}</td>
+                <td>{{student5.course}}</td>
+                <td>{{student5.mobNo}}</td>
+                <td>{{student5.email}}</td>
+                <td>{{student5.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student6.id}}</td>
+                <td>{{student6.name}}</td>
+                <td>{{student6.course}}</td>
+                <td>{{student6.mobNo}}</td>
+                <td>{{student6.email}}</td>
+                <td>{{student6.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student7.id}}</td>
+                <td>{{student7.name}}</td>
+                <td>{{student7.course}}</td>
+                <td>{{student7.mobNo}}</td>
+                <td>{{student7.email}}</td>
+                <td>{{student7.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student8.id}}</td>
+                <td>{{student8.name}}</td>
+                <td>{{student8.course}}</td>
+                <td>{{student8.mobNo}}</td>
+                <td>{{student8.email}}</td>
+                <td>{{student8.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student9.id}}</td>
+                <td>{{student9.name}}</td>
+                <td>{{student9.course}}</td>
+                <td>{{student9.mobNo}}</td>
+                <td>{{student9.email}}</td>
+                <td>{{student9.location}}</td>
+            </tr>
+            <tr>
+                <td>{{student10.id}}</td>
+                <td>{{student10.name}}</td>
+                <td>{{student10.course}}</td>
+                <td>{{student10.mobNo}}</td>
+                <td>{{student10.email}}</td>
+                <td>{{student10.location}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

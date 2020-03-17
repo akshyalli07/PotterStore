@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-image: url("22940.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec1{
+    width: 100%;
+    /* background-image: url("22948.jpg"); */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 120px;
+    text-align: center;
+}
+#name{
+    margin: 15px 15px;
+    float: left;
+    color: blanchedalmond;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    padding:10px 40px;
+    cursor: pointer;
+}
+#search{
+    width: 35%;
+    float: left;
+    text-shadow: black;
+    margin-top: 40px;
+    font-size: 105%;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    background: none;
+    border-bottom: 3px solid black;
+    text-indent: 10px;
+    outline: none;
+    height: 25px;
+    padding: 10px;
+}
+
+#log_in, #sign_up, #help, #cart {
+    float: right;
+    /* font-size: 110%;
+    margin: 52px 10px;
+    color: blanchedalmond;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background: none;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(2px);
+    cursor: pointer; */
+}
+
+input::placeholder{
+    color:black;
+}
+
+/* #cart1{
+    font-size: 110%;
+    font-weight: 540;
+    font-variant: small-caps;
+} */
+
+#head{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+#log_in:hover, #sign_up:hover, #help:hover, #cart:hover{
+    color: #210b9b;
+    font-size: 113%;
+}
+
+#head:hover{
+    color: #210b9b;
+    font-size: 101%;
+}

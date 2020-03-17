@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator</title>
+    <style>
+        .sec1{
+            background-image: url("22940.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+        }
+
+        .sec1 table, .sec1 td{
+            text-align: center;
+            padding: 10px;
+        }
+        .sec1 table{
+            width: 15%;
+            margin-top: 50px;
+            height: 40vh;
+            padding-top: 50px;
+            backdrop-filter: blur(4px);
+        }
+        #calcArea, #history{
+            width: 100%;
+            text-align: right;
+            height: 4vh;
+            outline: none;
+            border: none;
+            color: white;
+            background: none;
+            padding-bottom: 10px;
+            border-bottom: 2px solid black;
+            margin-bottom: 0px;
+        }
+
+        #calcArea{
+            font-size: 35px;
+        }
+        #history{
+            font-size: 25px;
+        }
+
+        .sec1 #one, .sec1 #two, .sec1 #three, .sec1 #four, .sec1 #five, .sec1 #six,.sec1 #seven, 
+        .sec1 #eight, .sec1 #nine, .sec1 #zero, .sec1 #empty, .sec1 #decimal, .sec1 #AC, .sec1 #del, 
+        .sec1 #mod, .sec1 #division, .sec1 #multiplication, .sec1 #subtraction, .sec1 #addition, .sec1 #equals{
+            width: 50px;
+            height:50px;
+            border-radius: 50%;
+            box-shadow: red;
+            outline: none;
+            border: none;
+            font-family: sans-serif;
+            font-size: 125%;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .sec1 #AC {
+            background-color:  #ff33ef;
+        }
+        .sec1 #del{
+            background-color:  #944dff;
+        }
+        .sec1 #mod {
+            background-color: #ffe680;
+        }
+        .sec1 #multiplication{
+            background-color: #ffc34d;
+        }
+        .sec1 #division{
+            background-color: #99ff33;
+        }
+        .sec1 #subtraction{
+            background-color: #00ffbf;
+        }
+        .sec1 #addition{
+            background-color: #1a8cff;
+        }
+        .sec1 #equals{
+            background-color: #ff8c1a;
+        }
+
+        .sec1 #AC:hover, .sec1 #del:hover, .sec1 #mod:hover, .sec1 #division:hover, .sec1 #multiplication:hover, 
+        .sec1 #subtraction:hover, .sec1 #addition:hover, .sec1 #equals:hover{
+            background-color: rgba(10, 47, 128, 0.822);
+            color:whitesmoke;
+        }
+
+
+        .sec1 #one:hover, .sec1 #two:hover, .sec1 #three:hover, .sec1 #four:hover, .sec1 #five:hover, .sec1 #six:hover,
+        .sec1 #seven:hover, .sec1 #eight:hover, .sec1 #nine:hover, .sec1 #zero:hover, .sec1 #decimal:hover {
+            color: whitesmoke;
+            background-color: rgba(109, 30, 30, 0.822);
+            transition: 0.6s;
+        }
+    </style>
+</head>
+<body>
+    <div class="sec1">
+        <center>
+            <table id="calcTable">
+                <tr>
+                    <td colspan="4"><input type="text" name="History" id="history" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="text" name="CalcArea" id="calcArea" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td><button id="AC">AC</button></td>
+                    <td><button id="del">Del</button></td>
+                    <td><button id="mod">%</button></td>
+                    <td><button id="division">/</button></td>
+                </tr>
+                <tr>
+                    <td><button id="one">1</button></td>
+                    <td><button id="two">2</button></td>
+                    <td><button id="three">3</button></td>
+                    <td><button id="multiplication">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="four">4</button></td>
+                    <td><button id="five">5</button></td>
+                    <td><button id="six">6</button></td>
+                    <td><button id="subtraction">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="seven">7</button></td>
+                    <td><button id="eight">8</button></td>
+                    <td><button id="nine">9</button></td>
+                    <td><button id="addition">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="empty"></button></td>
+                    <td><button id="zero"> 0</button></td>
+                    <td><button id="decimal">.</button></td>
+                    <td><button id="equals">=</button></td>
+                </tr>
+                <tr>
+                    
+                </tr>
+            </table>
+        </center>
+    </div>
+</body>
+<script src="Calculator.js"></script>
+</html>

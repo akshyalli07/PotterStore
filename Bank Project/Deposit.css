@@ -1,0 +1,28 @@
+body{
+    background-image: url("flower-3175428__340.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    filter: contrast(100%);
+    filter: opacity(100%);
+}
+.sec2{
+        padding: px;
+        text-align: center ;
+        border: 2px none black;
+        border-radius: 25px;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+}
+.sec2 input{
+    font-variant: small-caps;
+        font-weight: bold;
+        font-size: 25px;
+}
+.sec2 table,td{
+    text-align: center;
+    padding: 20px;
+}
